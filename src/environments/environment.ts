@@ -5,7 +5,7 @@
 export let environment: { apiUri: string; production: boolean };
 environment = {
   production: false,
-  apiUri: '/api'
+  apiUri: 'https://api.aizo.nl/live'
 };
 
 // In development mode, to ignore zone related error stack frames such as

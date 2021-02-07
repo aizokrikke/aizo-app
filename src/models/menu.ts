@@ -4,7 +4,6 @@ export interface MenuItem {
   display: string;
   action: string;
   show: boolean;
-  active: boolean;
   external: boolean;
   order: number;
   submenu: MenuItem[];
