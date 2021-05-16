@@ -1,0 +1,25 @@
+<div id="loginbutton"
+     (click)="showMenu()"
+     (mouseover)="showMenu()"
+     (mouseleave)="hideMenu()"
+>
+  <fa-icon [icon]="faUserCircle" class="icon"></fa-icon>
+  <div *ngIf="personalMenu" id="personalMenu">
+    <div *ngIf="ingelogd" class="person">
+      {{user.firstname}} {{user.lastname}}
+    </div>
+    <div *ngIf="!ingelogd" class="item"
+         (click)="handleClick('inloggen'); $event.stopPropagation()">
+      Inloggen
+    </div>
+    <div *ngIf="ingelogd" class="item"
+         (click)="handleClick('admin'); $event.stopPropagation()">
+      Admin
+    </div>
+    <div *ngIf="ingelogd" class="item"
+         (click)="handleClick('uitloggen'); $event.stopPropagation()">
+      Uitloggen
+    </div>  </div>
+</div>
+
+

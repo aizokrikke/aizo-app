@@ -1,0 +1,84 @@
+<div id="adminrow">
+  <div id="home">
+    <app-adminhome></app-adminhome>
+  </div>
+
+  <div id="searchform" [formGroup]="searchForm" (ngSubmit)="search()" class="searchbox">
+    <label>
+      <input type="text" formControlName="search" (keyup)="search()"> <fa-icon [icon]="faSearch" class="icon" (click)="search()"></fa-icon>
+    </label>
+  </div>
+</div>
+<div class="clear"></div>
+<div *ngIf="errortext" class="error">{{errortext}}</div>
+
+
+<div *ngIf="showlist">
+  <div *ngFor="let user of userList">
+    <fa-icon [icon]="faEdit" class="lineicon" (click)="edit(user.id)" title="edit"></fa-icon>
+    <fa-icon [icon]="faTrashAlt" class="lineicon" (click)="delete(user.id)" title="delete"></fa-icon>
+    <div (click)="edit(user.id)" class="field">{{user.firstname}} {{user.lastname}}</div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div *ngIf="!showlist">
+  <div *ngIf="showedit" id="editform" [formGroup]="editForm">
+    <div class="formrow">
+      <div class="formcol">
+        <label>
+        Voornaam
+        <input type="text" formControlName="firstname">
+        </label>
+      </div>
+
+      <div class="formcol">
+        <label>
+          Achternaam
+          <input type="text" formControlName="lastname">
+        </label>
+      </div>
+    </div>
+
+    <div class="formrow">
+      <div class="formcol">
+        <label>
+          Login
+          <input type="text" formControlName="login">
+        </label>
+      </div>
+    </div>
+
+    <div class="formrow">
+      <div class="formcol">
+        <label>
+          Wachtwoord
+          <input type="password" formControlName="password">
+        </label>
+      </div>
+
+      <div class="formcol">
+        <label>
+          Herhaal wachtwoord
+          <input type="password" formControlName="passwordVerify">
+        </label>
+      </div>
+    </div>
+
+    <div class="formrow">
+      <div class="formcol">
+        <label>
+          Rol
+          <input type="text" formControlName="role">
+        </label>
+      </div>
+    </div>
+
+    <div class="formrow">
+      <button (click)="update()" >Verwerken</button>
+      <button (click)="cancel()" >Cancel</button>
+    </div>
+
+  </div>
+</div>
+

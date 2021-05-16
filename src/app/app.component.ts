@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { faCog } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'app-root',

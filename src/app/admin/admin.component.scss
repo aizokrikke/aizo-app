@@ -1,0 +1,23 @@
+@import '../../scss/generic';
+
+.button {
+  cursor: pointer;
+  width: 20%;
+  margin-bottom: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  margin-right: 15px;
+  color: $menucolor;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+
+}
