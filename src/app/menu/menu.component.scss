@@ -1,0 +1,58 @@
+@import '../../scss/generic';
+
+.main {
+  float: left;
+  max-width: 20%;
+  min-width: 120px;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  font-family: $font-stack;
+  background-color: $menubackground;
+  color: $menucolor;
+  margin: 2px;
+  cursor: pointer;
+  position: relative;
+  font-size: $menufontsize;
+  z-index: 10;
+}
+
+.submenu {
+  text-align: left;
+  border-width: 1px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 150px;
+  position: absolute;
+  top: 100%;
+  background: $submenubackground;
+  z-index: 20;
+}
+
+.main:hover{
+  background-color: $menuhoverbackground;
+  color: $menuhovercolor;
+}
+
+.subitem:hover {
+  background-color: $submenuhoverbackground;
+  color: $menuhovercolor;
+}
+
+.subitem {
+  text-align: left;
+  background: $submenubackground;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 10;
+  color: $menucolor;
+  border-bottom: #ffffff 2px solid;
+}
+
+
+.clear {
+  clear: both;
+}

@@ -1,0 +1,94 @@
+$page-width: 80%;
+$font-stack: Canaro-Light, sans-serif;
+$body-font-size: 16px;
+$script-font: WhiteOleander, sans-serif;
+$menubackground: #F0F0F0;
+$menucolor: #777777;
+$menuhoverbackground: darkgreen;
+$menuhovercolor: white;
+$submenubackground: #E0E0E0;
+$submenuhoverbackground: #1d9b18;
+$menufontsize: 14px;
+
+.script{
+  font-family: $script-font;
+  font-size: 32pt;
+  color: darkgreen;
+}
+
+A:link, A:visited, A:active {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+A:hover {
+  text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+}
+
+.full_width {
+  width: 100%;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+
+#tekstbody {
+  font-family: $font-stack;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: 0px auto 30px;
+  line-height: 200%;
+  width: $page-width;
+  min-height: 100%;
+  font-size: $body-font-size;
+}
+
+.error {
+  width: 100%;
+  border: red 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  color: red;
+}
+
+.closer {
+  background: url("../assets/images/bar.svg");
+  background-repeat: no-repeat ;
+  background-size: 100% ;
+  background-position: center;
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0px;
+}
+
+INPUT {
+  padding: 10px;
+  border-radius: 5px;
+  border: #777777 1px solid;
+  font-family: $font-stack;
+  font-size: $body-font-size;
+}
+
+BUTTON, .button {
+  padding: 10px;
+  border-radius: 5px;
+  border: $menucolor 1px solid;
+  font-family: $font-stack;
+  font-size: $body-font-size;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button:hover, BUTTON:hover{
+  background-color: $menuhoverbackground;
+  color: $menuhovercolor;
+}

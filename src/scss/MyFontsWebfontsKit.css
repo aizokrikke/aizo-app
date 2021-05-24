@@ -1,0 +1,68 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3734844, 2019-03-17T12:03:01-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Canaro-ExtraBold by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/canaro/extra-bold/
+ * Copyright: Copyright &#x00A9; 2013 by Ren&#x00E9; Bieder. All rights reserved.
+ * Licensed pageviews: 100,000
+ * 
+ * Webfont: Canaro-Light by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/canaro/light/
+ * Copyright: Copyright &#x00A9; 2013 by Ren&#x00E9; Bieder. All rights reserved.
+ * Licensed pageviews: 100,000
+ * 
+ * Webfont: Canaro-SemiBold by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/canaro/semi-bold/
+ * Copyright: Copyright &#x00A9; 2013 by Ren&#x00E9; Bieder. All rights reserved.
+ * Licensed pageviews: 100,000
+ * 
+ * Webfont: Canaro-ThinItalic by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/canaro/thin-italic/
+ * Copyright: Copyright &#x00A9; 2013 by Ren&#x00E9; Bieder. All rights reserved.
+ * Licensed pageviews: 100,000
+ * 
+ * Webfont: Canaro-Thin by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/canaro/thin/
+ * Copyright: Copyright &#x00A9; 2013 by Ren&#x00E9; Bieder. All rights reserved.
+ * Licensed pageviews: 100,000
+ * 
+ * Webfont: WhiteOleander by Nicky Laatz 
+ * URL: https://www.myfonts.com/fonts/nicky-laatz/white-oleander/regular/
+ * Copyright: Copyright (c) 2018 by Nicky Laatz. All rights reserved.
+ * Licensed pageviews: 20,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3734844
+ * 
+ * © 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/38fd3c");
+
+  
+@font-face {font-family: 'Canaro-ExtraBold';src: url('webfonts/38FD3C_0_0.eot');src: url('webfonts/38FD3C_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/38FD3C_0_0.woff2') format('woff2'),url('webfonts/38FD3C_0_0.woff') format('woff'),url('webfonts/38FD3C_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Canaro-Light';src: url('webfonts/38FD3C_1_0.eot');src: url('webfonts/38FD3C_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/38FD3C_1_0.woff2') format('woff2'),url('webfonts/38FD3C_1_0.woff') format('woff'),url('webfonts/38FD3C_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Canaro-SemiBold';src: url('webfonts/38FD3C_2_0.eot');src: url('webfonts/38FD3C_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/38FD3C_2_0.woff2') format('woff2'),url('webfonts/38FD3C_2_0.woff') format('woff'),url('webfonts/38FD3C_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Canaro-ThinItalic';src: url('webfonts/38FD3C_3_0.eot');src: url('webfonts/38FD3C_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/38FD3C_3_0.woff2') format('woff2'),url('webfonts/38FD3C_3_0.woff') format('woff'),url('webfonts/38FD3C_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Canaro-Thin';src: url('webfonts/38FD3C_4_0.eot');src: url('webfonts/38FD3C_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/38FD3C_4_0.woff2') format('woff2'),url('webfonts/38FD3C_4_0.woff') format('woff'),url('webfonts/38FD3C_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'WhiteOleander';src: url('webfonts/38FD3C_5_0.eot');src: url('webfonts/38FD3C_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/38FD3C_5_0.woff2') format('woff2'),url('webfonts/38FD3C_5_0.woff') format('woff'),url('webfonts/38FD3C_5_0.ttf') format('truetype');}
+ 

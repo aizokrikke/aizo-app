@@ -1,0 +1,39 @@
+@import '../../scss/generic';
+
+#headerarea {
+  background-color: #F8F8F8;
+  margin: 0px;
+  position: relative;
+  height: 120px;
+}
+
+#menuarea {
+  position: relative;
+  margin: 0px auto;
+  float: right;
+}
+
+#menubox_outer {
+  padding-top: 60px;
+  width: $page-width;
+  margin: 0px auto;
+
+}
+#menubox_inner {
+  position: absolute;
+  width: $page-width;
+  transform:translateY(50%);
+}
+
+.logo {
+  margin: 0 auto;
+  position: absolute;
+  text-align: left;
+
+  &-image {
+    width: 20%;
+    max-width: $page-width;
+    min-width: 160px;
+  }
+}
+

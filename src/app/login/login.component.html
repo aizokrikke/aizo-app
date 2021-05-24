@@ -1,0 +1,29 @@
+<div class="container">
+  <app-header></app-header>
+
+  <div id="tekstbody">
+
+    <div [formGroup]="loginForm" (ngSubmit)="login()" id="formarea">
+      <div *ngIf="errortext" class="error">{{errortext}}</div>
+      <label>
+        Login
+        <input type="text" formControlName="login">
+      </label>
+
+      <label>
+        Password
+        <input type="password" formControlName="password">
+      </label>
+      <br><br>
+      <label>
+        <input type="checkbox" formControlName="remember" [ngModel]="remember"> Login onthouden
+      </label>
+      <br>
+      <BUTTON (click)="login()">login</BUTTON>
+    </div>
+
+  </div>
+  <div class="closer"></div>
+</div>
+
+

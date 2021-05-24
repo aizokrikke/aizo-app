@@ -1,0 +1,24 @@
+@import '../../scss/generic';
+
+.adminhome {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.adminhome:hover{
+  background-color: $menuhoverbackground;
+  color: $menuhovercolor;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  margin-right: 15px;
+  color: $menucolor;
+}

@@ -1,0 +1,17 @@
+<div *ngFor=" let item of menuList.menu" class="main"
+     (click)="handleClick(item.action, item.id, item.content)"
+     (mouseover)="showSubMenu(item.id)"
+     (mouseleave)="hideSubMenu(item.id)"
+>
+    {{item.display}}
+
+
+    <div *ngIf="item.submenu.length && item.active" class="submenu">
+        <div *ngFor="let subitem of item.submenu" class="subitem"
+             (click)="handleClick(subitem.action, subitem.id, subitem.content); $event.stopPropagation()"
+        >
+          {{subitem.display}}
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
