@@ -5,7 +5,7 @@
 export let environment: { apiUri: string; production: boolean, apiKey: string };
 environment = {
   production: false,
-  apiUri: 'https://api.aizo.nl/live',
+  apiUri: 'https://dev.api.aizo.nl',
   apiKey: '748e8218cdbb46b9639dd270da0d8812ad05b82c1beef49b5f30581021cfd2754d0aa919c8c1610fc8a6c47f31342b572ce2865038c060e8686a3fe58c679e36'
 };
 
